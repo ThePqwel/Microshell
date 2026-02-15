@@ -21,6 +21,7 @@ To start the program, execute:
 You should now see the prompt: moj_shell> 
 
 Key Features
+
 ★ External Execution: Runs standard system commands (e.g., ls, pwd) using fork() and execvp().
 
 ★ Redirection: Supports > operator using dup2() to save output to files.
